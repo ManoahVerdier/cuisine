@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
+use App\Http\Controllers\Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [Controller::class, 'homepage'])->name('hp');
+Route::get('/contact', [Controller::class, 'contact'])->name('contact');
+Route::get('/mentions-legales', [Controller::class, 'mentionsLegales'])->name('mentions-legales');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });

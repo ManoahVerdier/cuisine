@@ -1,0 +1,108 @@
+#menu.hidden {
+    left: 100%;
+    max-width: 0;
+    visibility: hidden;
+    transition: left .5s ease,max-width .5s ease;
+    transition: width 2s,max-width 2s,left 2s;
+}
+
+
+#menu{
+    background: #DEDEDE;
+    color:#2E3038;
+    right:0px;
+    top:0px;
+    z-index:30;
+    transition: width 2s, max-width 2s, left 2s;
+
+    &.hidden{
+        left:100%;
+        max-width:0px;
+        visibility:hidden;
+        transition:left .5s ease, max-width .5s ease;
+        transition: width 2s, max-width 2s, left 2s;
+    }
+
+    #menu-background{
+        background:rgba(20,20,20,0.6);
+    }
+
+    #inner-menu{
+        box-shadow: -10px -5px 30px 2px #353535;
+
+        #close-menu{
+            font-size:1.1rem;
+        }
+
+        .navbar-expand-lg .navbar-nav .dropdown-menu {
+            position: relative;
+            top:0%;
+            border:none;
+            border-radius:0px !important;
+    
+            a{
+                &:hover{
+                    background:transparent;
+                }
+            }
+        }
+    
+        .dropdown-toggle::after {
+            float:right;
+            margin-top:10px;
+            z-index:20 !important;
+            position:absolute;
+            right:29px;
+            top:29px;
+        }
+    
+        .dropdown-toggle::before{
+            content:' ';
+            display:inline-block;
+            height:70px;
+            position:absolute;
+            right:0px;
+            width:70px;
+            top:0px;
+            background:#1CB0EE;
+            z-index:0
+        }
+
+        a{
+            color:#2E3038;
+            font-size:1.1rem;
+            text-transform:uppercase;
+
+            &:hover{
+                /*background:#FDBE2D;*/
+                color:#249fd5;
+                text-decoration:none;
+            }
+        }
+    }
+
+    
+
+    #domaines-sub,#infos-pratiques-sub{
+        top:135px;
+        width:100%;
+        border-radius:0px;
+        border:none;
+        z-index:1;
+        background:#F7F7F7;
+        margin-top:0px;
+
+        @media (max-width:767px){
+            position:relative;
+            top:0px;
+            left:-40px;
+            width:calc(100% + 80px);
+        }
+
+        a{
+            &:hover{
+                background:rgba(222,222,222,0);
+            }
+        }
+    }
+}
