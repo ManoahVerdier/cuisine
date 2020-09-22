@@ -4,7 +4,7 @@
             {!!$text!!}
         </div>
         <div class="align-self-center col-md-4 col-12 text-center">
-            <a href="{{route('demo')}}" class="btn btn-light text-primary font-weight-bold">
+            <a href="{{route('contact',['demo'=>1])}}" class="btn btn-light text-primary font-weight-bold">
                 Demander une démo
             </a>
         </div>
