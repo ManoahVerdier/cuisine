@@ -17,6 +17,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
         "laravelcollective/html": "^6.2",
+        "orangehill/iseed": "^2.6",
         "tcg/voyager": "^1.4"
     },
     "require-dev": {
