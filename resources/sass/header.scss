@@ -64,7 +64,7 @@
             right:0px;
             width:70px;
             top:0px;
-            background:#1CB0EE;
+            background:$primary;
             z-index:0
         }
 
@@ -75,7 +75,7 @@
 
             &:hover{
                 /*background:#FDBE2D;*/
-                color:#249fd5;
+                color:$primary;
                 text-decoration:none;
             }
         }

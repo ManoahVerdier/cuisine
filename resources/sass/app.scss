@@ -10,3 +10,49 @@
 
 
 @import 'header';
+
+#tabs{
+
+    .nav-link.active{
+        border-bottom:3px solid $primary;
+        border-top:0px;
+        border-left:0px;
+        border-right:0px;
+        font-weight:900;
+    }
+
+    .nav-link{
+        color:inherit;
+    }
+
+    #accordion{
+        .panel-heading{
+            .panel-title{
+                border-bottom:3px solid $primary;
+                padding-bottom:5px;
+                a{
+                    color:inherit;
+                    padding-top:5px;
+                    padding-bottom:5px;
+                    font-weight:bold;
+                    text-decoration:none;
+                    
+
+                    &.collapsed{
+                        font-weight:300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#product-page{
+    .gear{
+        mask-image: url('/images/layouts/gear.svg');
+        
+        background-color:$primary;
+        
+        mask-repeat:no-repeat;
+    }
+}
