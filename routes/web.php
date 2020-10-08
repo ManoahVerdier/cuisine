@@ -23,7 +23,7 @@ Route::get('/produit-ms-erp', [Controller::class, 'produitMsErp'])->name('produi
 Route::get('/fonctionnalites-ms-erp', [Controller::class, 'fonctionMsErp'])->name('fonction-ms-erp');
 Route::get('/produit-appli-mobile', [Controller::class, 'produitApplication'])->name('produit-appli');
 Route::get('/fonctionnalites-appli-mobile', [Controller::class, 'fonctionApplication'])->name('fonction-appli');
-
+Route::get('/produit-appli-interventions', [Controller::class, 'produitInterventions'])->name('produit-interventions');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

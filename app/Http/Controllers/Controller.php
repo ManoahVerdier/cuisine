@@ -10,6 +10,7 @@ use App\Models\Homepage;
 use App\Models\Page;
 use App\Models\PageProduit;
 use App\Models\PageFonctionnalite;
+use App\Models\PageIntervention;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -39,6 +40,12 @@ class Controller extends BaseController
     {
         $pageProduit = PageProduit::where('id', 1)->firstOrFail();
         return view('pages.produit', compact('pageProduit'));
+    }
+
+    public function produitInterventions()
+    {
+        $pageInterventions = PageIntervention::where('id',1)->firstOrFail();
+        return view('pages.interventions', compact('pageInterventions'));
     }
 
     public function fonctionMsErp()

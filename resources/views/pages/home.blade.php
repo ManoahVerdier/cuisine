@@ -17,7 +17,8 @@ id="home-page"
     @include(
         'layouts.partials.hp.banner',
         [
-            "text"=>$hp->banner_text
+            "text"=>$hp->banner_text,
+            "space"=>true
         ]
     )
     @include('layouts.partials.hp.confiance')
@@ -26,7 +27,8 @@ id="home-page"
     @include(
         'layouts.partials.hp.demo',
         [
-            "text"=>$hp->demo_text
+            "text"=>$hp->demo_text,
+            "space"=>true
         ]
     )
 @endsection
