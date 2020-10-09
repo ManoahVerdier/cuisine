@@ -14,8 +14,8 @@ id="product-page"
 {{-- Content --}}
 @section('content')
 
-    <div class="container-fluid">
-        <div class="row pt-4">
+    <div class="container-fluid px-5">
+        <div class="row pt-4 px-5">
             <div class="col-12 h5">
                 <h1>Présentation de {{$pageInterventions->title}}</h1>
             </div>
