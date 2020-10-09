@@ -1,4 +1,4 @@
-<div class="container @if($space ?? false) mt-5 @endif" id='banner'>
+<div class="container-fluid @if($space ?? false) mt-5 @endif" id='banner'>
     <div class="row bg-primary pt-2">
         <div class="col-4 d-none d-md-block">
             <div class="banner-text p-3 text-white">

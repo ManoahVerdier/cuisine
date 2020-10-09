@@ -1,4 +1,4 @@
-<div class="container" id='connexion'>
+<div class="container-fluid" id='connexion'>
     <div class="row bg-primary pt-2">
         <div class="col-12 col-md-7">
             <div class="connexion-text p-3 text-white">

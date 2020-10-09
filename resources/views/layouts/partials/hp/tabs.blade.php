@@ -1,4 +1,4 @@
-<div class="container" id='tabs'>
+<div class="container-fluid" id='tabs'>
     <div class="row">
         <div class="col-12">
             <ul class="nav nav-tabs" id="tabList" role="tablist">

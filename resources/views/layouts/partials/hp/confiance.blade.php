@@ -1,4 +1,4 @@
-<div class="container mt-4" id="confiance">
+<div class="container-fluid mt-4" id="confiance">
     <div class="row bg-secondary">
         <div class="col-12 mb-3 h3 text-left text-white">
             Ils nous font confiance
