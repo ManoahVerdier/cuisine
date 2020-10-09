@@ -25,6 +25,7 @@ id="product-page"
         'layouts.partials.hp.banner',
         [
             "text"=>$pageInterventions->intro,
+            "img"=>asset('/images/HP/screenshot.png'),
             "text_btn"=>$pageInterventions->text_btn
         ]
     )

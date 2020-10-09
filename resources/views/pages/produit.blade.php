@@ -24,7 +24,8 @@ id="product-page"
     @include(
         'layouts.partials.hp.banner',
         [
-            "text"=>$pageProduit->banner_texte
+            "text"=>$pageProduit->banner_texte,
+            "img"=>asset('/images/HP/screenshot.png')
         ]
     )
     

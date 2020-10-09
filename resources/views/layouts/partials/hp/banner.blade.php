@@ -14,7 +14,7 @@
         </div>
         <div class="col-12 col-md-8 align-self-center mb-5">
             <div class="banner-img">
-                <img class="w-100" src="{{asset('/images/HP/screenshot.png')}}"/>
+                <img class="w-100" src="{{$img}}"/>
             </div>
         </div>
         <div class="col-12 d-md-none">

@@ -18,6 +18,7 @@ id="home-page"
         'layouts.partials.hp.banner',
         [
             "text"=>$hp->banner_text,
+            "img"=>asset('/images/HP/screenshot.png'),
             "space"=>true
         ]
     )
