@@ -31,7 +31,7 @@ id="product-page"
     )
     <div class="container-fluid">
         <div class="row pt-4">
-            <div class="col-12 h5">
+            <div class="col-12 h4 text-left black">
                 Caractéristiques de {{$pageInterventions->title}}
             </div>
         </div>
