@@ -17,7 +17,7 @@ id="fonction-page"
     <div class="container-fluid px-5">
         <div class="row pt-4  px-5">
             <div class="col-12 h5">
-                <h1>Page fontionnalité / {{$pageFonction->title}}</h1>
+                <h1>Fontionnalité de {{$pageFonction->title}}</h1>
             </div>
         </div>
     </div>
