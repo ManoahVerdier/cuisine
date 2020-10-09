@@ -22,9 +22,14 @@ id="contact-page"
     <div class="container py-4">
         <h1 class="w-100 text-center blue mb-4">Nous contacter</h1>
         <p class="text-center text-md-left">
+            @if($demo ?? false)
+            Vous souhaitez une démonstration de notre ERP ou d’une application ? 
+            N’hésitez pas à nous joindre par téléphone ou remplissez ce formulaire pour être recontacté immédiatement.
+            @else
             Vous souhaitez un renseignement ? un devis ? ou tout simplement parler à un équipe. 
             N’hésitez pas à nous joindre par téléphone ou remplissez ce formulaire 
             pour être recontacté immédiatement.
+            @endif
         </p>
         <div class="row">
 
