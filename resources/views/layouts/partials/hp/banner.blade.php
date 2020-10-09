@@ -8,7 +8,7 @@
                 @if($text_btn ?? false)
                     <a href="{{route('demo')}}" class="btn btn-secondary">{{$text_btn}}</a>
                 @else 
-                    <a href="{{route('demo')}}" class="btn btn-secondary">Découvrir la démo</a>
+                    <a href="{{route('demo')}}" class="btn btn-lg btn-secondary">Découvrir la démo</a>
                 @endif
             </div>
         </div>
@@ -25,7 +25,7 @@
                 @if($text_btn ?? false)
                     <a href="{{route('demo')}}" class="btn btn-secondary">{{$text_btn}}</a>
                 @else 
-                    <a href="{{route('demo')}}" class="btn btn-secondary">Découvrir la démo</a>
+                    <a href="{{route('demo')}}" class="btn btn-lg btn-secondary">Découvrir la démo</a>
                 @endif
             </div>
         </div>
