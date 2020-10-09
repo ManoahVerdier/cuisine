@@ -7,7 +7,7 @@
         </div>
         <div class="col-12 col-md-5 align-self-center mb-5">
             <div class="connexion-img">
-                <img class="w-100" src="{{asset('/images/HP/screenshot.png')}}"/>
+                <img class="w-100" src="{{asset('/images/HP/connexion.jpg')}}"/>
             </div>
         </div>
     </div>
