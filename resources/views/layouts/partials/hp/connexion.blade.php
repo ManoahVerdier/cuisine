@@ -1,7 +1,7 @@
 <div class="container-fluid" id='connexion'>
     <div class="row bg-primary pt-2">
         <div class="col-12 col-md-7">
-            <div class="connexion-text p-3 text-white">
+            <div class="connexion-text p-3 text-white text-center h4">
                 {!!$hp->connexion_text!!}
             </div>
         </div>

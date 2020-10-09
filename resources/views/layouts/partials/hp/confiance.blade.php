@@ -1,6 +1,6 @@
 <div class="container-fluid mt-4" id="confiance">
-    <div class="row bg-secondary px-5 pt-3">
-        <div class="col-12 mb-3 h3 text-left text-white">
+    <div class="row bg-secondary pt-3">
+        <div class="col-12 mb-4 h3 text-left text-white">
             Ils nous font confiance
         </div>
     </div>
