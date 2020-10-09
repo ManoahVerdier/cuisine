@@ -21,7 +21,7 @@
                     <a class="nav-link" id="clients-tab" data-toggle="tab" href="#clients" role="tab" aria-controls="clients" aria-selected="false">Clients</a>
                 </li>
             </ul>
-            <div class="tab-content container" id="tabsContent">
+            <div class="tab-content container-fluid" id="tabsContent">
                 <div class="p-4 tab-pane fade show active" id="mntprev" role="tabpanel" aria-labelledby="mntprev-tab">
                     <div class="row">
                         <div class="col-12 col-md-6 align-self-center">

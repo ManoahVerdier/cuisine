@@ -1,5 +1,5 @@
 <header>
-    <div class="container bg-primary" id="header-main">
+    <div class="container-fluid bg-primary" id="header-main">
         <div class="row">
             <div class="col-6 col-md-3">
                 <div id="logo" class="px-md-3 px-0 mt-3 mb-3">
