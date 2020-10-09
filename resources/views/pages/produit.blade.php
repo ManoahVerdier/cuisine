@@ -25,7 +25,7 @@ id="product-page"
         'layouts.partials.hp.banner',
         [
             "text"=>$pageProduit->banner_texte,
-            "img"=>$pageProduit->main_img
+            "img"=>"storage/".$pageProduit->main_img
         ]
     )
     
