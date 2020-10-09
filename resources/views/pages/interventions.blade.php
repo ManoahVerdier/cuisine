@@ -14,7 +14,7 @@ id="product-page"
 {{-- Content --}}
 @section('content')
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-12 h5">
                 <h1>Page produit / {{$pageInterventions->title}}</h1>
@@ -29,7 +29,7 @@ id="product-page"
             "text_btn"=>$pageInterventions->text_btn
         ]
     )
-    <div class="container">
+    <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-12 h5">
                 Caractéristiques de l'{{$pageInterventions->title}}

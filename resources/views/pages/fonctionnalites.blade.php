@@ -14,7 +14,7 @@ id="fonction-page"
 {{-- Content --}}
 @section('content')
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-12 h5">
                 <h1>Page fontionnalité / {{$pageFonction->title}}</h1>
@@ -23,7 +23,7 @@ id="fonction-page"
     </div>
     
     
-    <div class="container">
+    <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-12 h5">
                 {{$pageFonction->intro}}
