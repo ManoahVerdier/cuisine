@@ -23,13 +23,13 @@ id="fonction-page"
     </div>
     
     
-    <div class="container-fluid">
-        <div class="row pt-4">
+    <div class="container-fluid px-5">
+        <div class="row pt-4  px-5">
             <div class="col-12 h5">
                 {{$pageFonction->intro}}
             </div>
         </div>
-        <div class="row pb-5 pt-4">
+        <div class="row pb-5 pt-4 px-5">
             @if($pageFonction->fct1_title ?? false)
                 @include(
                     'layouts.partials.page_fonction.fonction_line',
