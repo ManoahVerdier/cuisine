@@ -107,6 +107,61 @@ id="fonction-page"
                     ]
                 )
             @endif
+            @if($pageFonction->fct8_title ?? false)
+                @include(
+                    'layouts.partials.page_fonction.fonction_line',
+                    [
+                        "title"=>"$pageFonction->fct8_title",
+                        "content"=>"$pageFonction->fct8_text",
+                        "img"=>"$pageFonction->fct8_img",
+                        "side"=>"left"
+                    ]
+                )
+            @endif
+            @if($pageFonction->fct9_title ?? false)
+                @include(
+                    'layouts.partials.page_fonction.fonction_line',
+                    [
+                        "title"=>"$pageFonction->fct9_title",
+                        "content"=>"$pageFonction->fct9_text",
+                        "img"=>"$pageFonction->fct9_img",
+                        "side"=>"left"
+                    ]
+                )
+            @endif
+            @if($pageFonction->fct10_title ?? false)
+                @include(
+                    'layouts.partials.page_fonction.fonction_line',
+                    [
+                        "title"=>"$pageFonction->fct10_title",
+                        "content"=>"$pageFonction->fct10_text",
+                        "img"=>"$pageFonction->fct10_img",
+                        "side"=>"left"
+                    ]
+                )
+            @endif
+            @if($pageFonction->fct11_title ?? false)
+                @include(
+                    'layouts.partials.page_fonction.fonction_line',
+                    [
+                        "title"=>"$pageFonction->fct11_title",
+                        "content"=>"$pageFonction->fct11_text",
+                        "img"=>"$pageFonction->fct11_img",
+                        "side"=>"left"
+                    ]
+                )
+            @endif
+            @if($pageFonction->fct12_title ?? false)
+                @include(
+                    'layouts.partials.page_fonction.fonction_line',
+                    [
+                        "title"=>"$pageFonction->fct12_title",
+                        "content"=>"$pageFonction->fct12_text",
+                        "img"=>"$pageFonction->fct12_img",
+                        "side"=>"left"
+                    ]
+                )
+            @endif
         </div>
     </div>
 
