@@ -23,6 +23,9 @@
                                     <div class="col-12 text-left pl-0">
                                         <a class="dropdown-item pl-3" href="{{route('produit-appli')}}">Application mobile</a>
                                     </div>
+                                    <div class="col-12 text-left pl-0">
+                                        <a class="dropdown-item pl-3" href="{{route('produit-interventions')}}">Application interventions</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
