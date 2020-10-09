@@ -5,7 +5,7 @@
                 {!!$hp->connexion_text!!}
             </div>
         </div>
-        <div class="col-12 col-md-3 align-self-center">
+        <div class="col-12 col-md-3 align-self-center mb-1">
             <div class="connexion-img">
                 <img class="w-100" src="{{asset('/images/HP/connexion.jpg')}}"/>
             </div>
