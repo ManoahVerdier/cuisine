@@ -114,7 +114,7 @@ id="fonction-page"
                         "title"=>"$pageFonction->fct8_title",
                         "content"=>"$pageFonction->fct8_text",
                         "img"=>"$pageFonction->fct8_img",
-                        "side"=>"left"
+                        "side"=>"right"
                     ]
                 )
             @endif
@@ -136,7 +136,7 @@ id="fonction-page"
                         "title"=>"$pageFonction->fct10_title",
                         "content"=>"$pageFonction->fct10_text",
                         "img"=>"$pageFonction->fct10_img",
-                        "side"=>"left"
+                        "side"=>"right"
                     ]
                 )
             @endif
@@ -158,7 +158,7 @@ id="fonction-page"
                         "title"=>"$pageFonction->fct12_title",
                         "content"=>"$pageFonction->fct12_text",
                         "img"=>"$pageFonction->fct12_img",
-                        "side"=>"left"
+                        "side"=>"right"
                     ]
                 )
             @endif
