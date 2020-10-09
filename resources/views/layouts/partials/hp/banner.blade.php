@@ -1,7 +1,7 @@
 <div class="container-fluid @if($space ?? false) mt-5 @endif" id='banner'>
-    <div class="row bg-primary pt-2">
-        <div class="col-5 d-none d-md-block">
-            <div class="banner-text p-3 text-white">
+    <div class="row pt-2">
+        <div class="col-5 d-none d-md-block align-self-center">
+            <div class="banner-text p-3 black h4 text-center">
                 {!!$text!!}
             </div>
             <div class="banner-link text-center pb-4 pt-2">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="col-12 d-md-none">
-            <div class="banner-text p-3 text-white text-center">
+            <div class="banner-text p-3 black text-center h4">
                 {!!$text!!}
             </div>
             <div class="banner-link text-center pb-5">
