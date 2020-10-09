@@ -67,12 +67,14 @@ id="contact-page"
                     <span class="text-danger">{{ $errors->first('nb_tech') }}</span>
                 </div>
 
+                @if($demo ?? false)
                 <div class="form-group {{ $errors->has('demo') ? 'has-error' : '' }}">
                     {!! Form::checkbox('demo', 'demo', old('demo') ?? $demo) !!}
                     <label for="demo" class="ml-2 mb-1">Demander une démo</label>
                     <span class="text-danger">{{ $errors->first('demo') }}</span>
                 </div>
-
+                @endif
+                
                 <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
                     {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Message']) !!}
                     <span class="text-danger">{{ $errors->first('message') }}</span>
