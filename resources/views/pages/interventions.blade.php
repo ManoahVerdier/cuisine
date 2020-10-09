@@ -32,7 +32,7 @@ id="product-page"
     <div class="container-fluid">
         <div class="row pt-4">
             <div class="col-12 h5">
-                Caractéristiques de l'{{$pageInterventions->title}}
+                Caractéristiques de {{$pageInterventions->title}}
             </div>
         </div>
         <div class="row pb-5 pt-4">
@@ -43,7 +43,9 @@ id="product-page"
                         "title"=>"$pageInterventions->title_1",
                         "content"=>"$pageInterventions->contenu_1",
                         "img"=>"$pageInterventions->img_1",
-                        "side"=>"left"
+                        "side"=>"left",
+                        "col_text"=>8,
+                        "col_img"=>4
                     ]
                 )
             @endif
