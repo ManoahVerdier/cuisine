@@ -50,10 +50,9 @@
 #product-page{
     .gear{
         mask-image: url('/images/layouts/gear.svg');
-        
         background-color:$primary;
-        
         mask-repeat:no-repeat;
+        mask-position-x: right;
     }
 }
 
