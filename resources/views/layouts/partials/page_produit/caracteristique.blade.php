@@ -4,7 +4,7 @@
             <div class="w-100 h-100 gear"></div>
         </div>
         <div class="col-10">
-            <div class="w-100 font-weight-bold">
+            <div class="w-100 font-weight-bold h5">
                 {{$title}}
             </div>
             <div class="w-100">

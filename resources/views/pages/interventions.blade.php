@@ -29,10 +29,10 @@ id="product-page"
             "text_btn"=>$pageInterventions->text_btn
         ]
     )
-    <div class="container-fluid">
+    <div class="container-fluid px-5">
         <div class="row pt-4">
             <div class="col-12 h4 text-left black">
-                Caractéristiques de {{$pageInterventions->title}}
+                <span class="border-bottom border-primary border-medium">Caractéristiques de {{$pageInterventions->title}}</span>
             </div>
         </div>
         <div class="row pb-5 pt-4">
