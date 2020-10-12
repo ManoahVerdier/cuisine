@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
         $this->call(PageFonctionnalitesTableSeeder::class);
         $this->call(PermissionRoleTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
-        $this->call(TranslationsTableSeeder::class);
+        //$this->call(TranslationsTableSeeder::class);
         $this->call(PasswordResetsTableSeeder::class);
         $this->call(PagesTableSeeder::class);
         $this->call(FailedJobsTableSeeder::class);
