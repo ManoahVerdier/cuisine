@@ -31,8 +31,8 @@ id="product-page"
     
     <div class="container-fluid">
         <div class="row pt-4">
-            <div class="col-12 h4 text-left black">
-                Caractéristiques de {{$pageProduit->title}}
+            <div class="col-12 text-left black">
+                <span class="h3 border-bottom border-primary middle-border">Caractéristiques de {{$pageProduit->title}}</span>
             </div>
         </div>
         <div class="row pb-5 pt-4">

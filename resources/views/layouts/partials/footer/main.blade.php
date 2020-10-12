@@ -7,11 +7,11 @@
             </div>
             <div class="col-12 col-md-6 my-5 text-left pl-5 pb-2 pt-1">
                 <a href="tel:+33482534478" class="ml-4 w-100 d-inline-block dark-grey h5 mb-0"><b>04 82 53 44 78</b></a>
-                <a href="mailto:contact@cyn-communication.fr" class="ml-4 w-100 d-inline-block blue h3 font-weight-bold ">contact@cyn-communication fr</a>
+                {{--a href="mailto:contact@cyn-communication.fr" class="ml-4 w-100 d-inline-block blue h3 font-weight-bold ">contact@cyn-communication fr</a>--}}
             </div>
             <div class="col-12 text-center">
                 <span>{{env('APP_NAME')}} - Copyright 2020 - Tous droits reserves. | </span>
-                <a href="{{route('mentions-legales')}}">Mentions legales</a><span> 
+                {{--<a href="{{route('mentions-legales')}}">Mentions legales</a><span> --}}
             </div>
         </div>
     </div>
