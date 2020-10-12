@@ -15,10 +15,11 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         $this->call(HomepagesTableSeeder::class);
+        $this->call(RolesTableSeeder::class);
         $this->call(UsersTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
         $this->call(DataTypesTableSeeder::class);
-        $this->call(RolesTableSeeder::class);
+        
         $this->call(MenusTableSeeder::class);
         $this->call(UserRolesTableSeeder::class);     
         $this->call(DataRowsTableSeeder::class);  
