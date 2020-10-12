@@ -33,5 +33,6 @@ class DatabaseSeeder extends Seeder
         $this->call(PasswordResetsTableSeeder::class);
         $this->call(PagesTableSeeder::class);
         $this->call(FailedJobsTableSeeder::class);
+        $this->call(PageInterventionsTableSeeder::class);
     }
 }

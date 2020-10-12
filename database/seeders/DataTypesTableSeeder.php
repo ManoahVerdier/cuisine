@@ -1,5 +1,5 @@
 <?php
-namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class DataTypesTableSeeder extends Seeder
@@ -105,7 +105,7 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-09-16 16:22:27',
-                'updated_at' => '2020-09-18 12:54:41',
+                'updated_at' => '2020-10-12 09:14:26',
             ),
             5 => 
             array (
@@ -123,7 +123,25 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2020-09-16 16:29:57',
-                'updated_at' => '2020-09-18 12:55:19',
+                'updated_at' => '2020-10-09 07:31:09',
+            ),
+            6 => 
+            array (
+                'id' => 10,
+                'name' => 'page_interventions',
+                'slug' => 'page-interventions',
+                'display_name_singular' => 'Page Intervention',
+                'display_name_plural' => 'Page Interventions',
+                'icon' => NULL,
+                'model_name' => 'App\\Models\\PageIntervention',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:52:02',
             ),
         ));
         

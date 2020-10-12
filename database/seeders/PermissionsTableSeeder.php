@@ -1,5 +1,5 @@
 <?php
-namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class PermissionsTableSeeder extends Seeder
@@ -344,6 +344,46 @@ class PermissionsTableSeeder extends Seeder
                 'table_name' => 'page_fonctionnalites',
                 'created_at' => '2020-09-16 16:29:58',
                 'updated_at' => '2020-09-16 16:29:58',
+            ),
+            41 => 
+            array (
+                'id' => 42,
+                'key' => 'browse_page_interventions',
+                'table_name' => 'page_interventions',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:21:53',
+            ),
+            42 => 
+            array (
+                'id' => 43,
+                'key' => 'read_page_interventions',
+                'table_name' => 'page_interventions',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:21:53',
+            ),
+            43 => 
+            array (
+                'id' => 44,
+                'key' => 'edit_page_interventions',
+                'table_name' => 'page_interventions',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:21:53',
+            ),
+            44 => 
+            array (
+                'id' => 45,
+                'key' => 'add_page_interventions',
+                'table_name' => 'page_interventions',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:21:53',
+            ),
+            45 => 
+            array (
+                'id' => 46,
+                'key' => 'delete_page_interventions',
+                'table_name' => 'page_interventions',
+                'created_at' => '2020-10-09 07:21:53',
+                'updated_at' => '2020-10-09 07:21:53',
             ),
         ));
         

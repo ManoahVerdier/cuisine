@@ -1,5 +1,5 @@
 <?php
-namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class PageProduitsTableSeeder extends Seeder
@@ -20,8 +20,11 @@ class PageProduitsTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 1,
-                'title' => 'Application mobile',
-                'banner_texte' => 'Application mobile préventive  L’application mobile de maintenance préventive pour les cuisinistes professionnels  Réaliser la maintenance  préventive chez vos clients  Ne perdez plus de temps avec des fichiers Excel, des papiers, de la re-saisie. Avec notre application, vos techniciens gagneront du temps pour faire leur rapport de visite de maintenance préventive,',
+                'title' => 'l\'application mobile de maintenance préventive',
+                'banner_texte' => '<h2>Application mobile pr&eacute;ventive</h2>
+<p>L&rsquo;application mobile de maintenance pr&eacute;ventive pour les cuisinistes professionnels</p>
+<p>R&eacute;aliser la maintenance pr&eacute;ventive chez vos clients</p>
+<p>Ne perdez plus de temps avec des fichiers Excel, des papiers, de la re-saisie. Avec notre application, vos techniciens gagneront du temps pour faire leur rapport de visite de maintenance pr&eacute;ventive,</p>',
                 'carac1_title' => 'Rapport de maintenance préventive',
                 'carac1_content' => 'Créer simplement un rapport de maintenance à partir de votre tablette',
                 'carac2_title' => 'Gérer l’état du matériel',
@@ -42,14 +45,18 @@ class PageProduitsTableSeeder extends Seeder
                 'carac9_content' => 'Le client pour noter et évaluer l’intervention de votre technicien',
                 'carac10_title' => 'Ajouter une photo de l’appareil',
                 'carac10_content' => 'Prenez en photo l’appareil, elle apparaitra dans le rapport et sur MS-ERP',
-                'created_at' => '2020-09-16 16:24:11',
-                'updated_at' => '2020-09-16 16:24:11',
+                'created_at' => '2020-09-16 16:24:00',
+                'updated_at' => '2020-10-12 09:15:33',
+                'main_img' => 'page-produits/October2020/EOMU0Iow7ENiI04wc7Vn.jpg',
             ),
             1 => 
             array (
                 'id' => 2,
                 'title' => 'MS-ERP',
-                'banner_texte' => 'MS-ERP  Le logiciel de suivi de maintenance GMAO pour les cuisinistes professionnels  Gérer et superviser la maintenance chez vos clients  Ne perdez plus de temps avec des fichiers Excel, des papiers, de la re-saisie. Avec MS-ERP, vos techniciens et votre équipe SAV gagnera du temps et sera plus productive,',
+                'banner_texte' => '<h2>MS-ERP Le logiciel de suivi de maintenance GMAO pour les cuisinistes professionnels</h2>
+<p>G&eacute;rer et superviser la maintenance chez vos clients</p>
+<p>Ne perdez plus de temps avec des fichiers Excel, des papiers, de la re-saisie.</p>
+<p>Avec MS-ERP, vos techniciens et votre &eacute;quipe SAV gagnera du temps et sera plus productive,</p>',
                 'carac1_title' => 'Rapport de maintenance préventive',
                 'carac1_content' => 'Créer simplement un rapport de maintenance à partir de votre tablette',
                 'carac2_title' => 'Points de contrôles de vos appareils',
@@ -70,8 +77,9 @@ class PageProduitsTableSeeder extends Seeder
                 'carac9_content' => 'Donner accès à MS ERP aux donneurs d’ordre sur l’ensemble de leurs clients.',
                 'carac10_title' => NULL,
                 'carac10_content' => NULL,
-                'created_at' => '2020-09-16 16:25:44',
-                'updated_at' => '2020-09-16 16:25:44',
+                'created_at' => '2020-09-16 16:25:00',
+                'updated_at' => '2020-10-12 09:15:01',
+                'main_img' => 'page-produits/October2020/1jv2sQlB5vpiPvWGyD0p.png',
             ),
         ));
         
