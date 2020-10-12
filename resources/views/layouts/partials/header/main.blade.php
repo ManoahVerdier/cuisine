@@ -1,17 +1,17 @@
 <header>
     <div class="container-fluid bg-primary" id="header-main">
         <div class="row">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-md-3 align-self-center">
                 <div id="logo" class="px-md-3 px-0 mt-3 mb-3">
                     <a href="{{url('/')}}" class="d-inline-block h-50 w-100">
-                        <img class=" mx-auto" src="{{asset('images/layouts/logo.png')}}"/>
+                        <img height="40px" class="mx-auto" src="{{asset('images/layouts/logo.png')}}"/>
                     </a>
                 </div>
             </div>
             <div class="col-9 d-none d-md-block">
                 <nav class="navbar navbar-expand-lg row h-100 align-self-center">
                     <div class="col-3 align-self-center">
-                        <a class="mb-0 nav-link text-white dropdown-toggle h5 pb-3 pl-3 text-center" href="#" id="produits" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="mb-0 nav-link text-white dropdown-toggle h5 py-3 pl-3 text-center" href="#" id="produits" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Produit
                         </a>
                         <div class="mt-3 dropdown-menu bg-white" aria-labelledby="produits" id="produits-sub">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="col-3 align-self-center">
-                        <a class="mb-0 nav-link text-white dropdown-toggle h5 pb-3 pl-3 text-center" href="#" id="fonctionnalites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="mb-0 nav-link text-white dropdown-toggle h5 py-3 pl-3 text-center" href="#" id="fonctionnalites" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Fonctionnalités
                         </a>
                         <div class="mt-3 dropdown-menu bg-white" aria-labelledby="fonctionnalites" id="fonctionnalites-sub">
@@ -48,12 +48,12 @@
                         </div>
                     </div>
                     <div class="col-3 align-self-center">
-                        <a class="mb-0 nav-link text-white h5 pb-3 pl-3 text-center" href="{{route('contact',['demo'=>1])}}" id="demo" role="button">
+                        <a class="mb-0 nav-link text-white h5 py-3 pl-3 text-center" href="{{route('contact',['demo'=>1])}}" id="demo" role="button">
                             Démo
                         </a>
                     </div>
                     <div class="col-3 align-self-center">
-                    <a class="mb-0 nav-link text-white h5 pb-3 pl-3 text-center" href="{{route('contact')}}" id="contact" role="button">
+                    <a class="mb-0 nav-link text-white h5 py-3 pl-3 text-center" href="{{route('contact')}}" id="contact" role="button">
                             Contact
                         </a>
                     </div>
