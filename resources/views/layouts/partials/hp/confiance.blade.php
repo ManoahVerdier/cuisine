@@ -1,7 +1,7 @@
 <div class="container-fluid mt-4" id="confiance">
     <div class="row bg-white pt-3">
-        <div class="col-12 mb-4 h3 text-left black">
-            Ils nous font confiance
+        <div class="col-12 mb-4 h3 text-left text-primary">
+            <span class="border-bottom">Ils nous font confiance</span>
         </div>
     </div>
     <div class="row bg-white px-5">
@@ -22,8 +22,10 @@
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-12  mt-3  h3 text-left black">
-            {!!$hp->confiance_text!!}
+        <div class="col-12  mt-3  h3 text-left text-primary mb-4">
+            <span class="border-bottom">
+                {{$hp->confiance_text}}
+            </span>
         </div>
     </div>
 </div>

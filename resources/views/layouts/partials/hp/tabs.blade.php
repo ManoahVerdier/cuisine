@@ -25,7 +25,7 @@
                 <div class="p-4 tab-pane fade show active" id="mntprev" role="tabpanel" aria-labelledby="mntprev-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab1_text !!}
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                 <div class="p-4 tab-pane fade" id="mntcur" role="tabpanel" aria-labelledby="mntcur-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab2_text !!}
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                 <div class="p-4 tab-pane fade" id="contrat" role="tabpanel" aria-labelledby="contrat-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab3_text !!}
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                 <div class="p-4 tab-pane fade" id="devis" role="tabpanel" aria-labelledby="devis-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab4_text !!}
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                 <div class="p-4 tab-pane fade" id="factures" role="tabpanel" aria-labelledby="factures-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab5_text !!}
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                 <div class="p-4 tab-pane fade" id="clients" role="tabpanel" aria-labelledby="clients-tab">
                     <div class="row">
                         <div class="col-12 col-md-4 align-self-center">
-                            <div class="tab-text p-4 h4">
+                            <div class="tab-text p-4 h5">
                                 {!! $hp->tab6_text !!}
                             </div>
                         </div>
