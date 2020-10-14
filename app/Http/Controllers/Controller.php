@@ -20,7 +20,7 @@ class Controller extends BaseController
 
     public function homepage()
     {
-        $hp = Homepage::first();
+        $hp = Homepage::firstOrFail();
         return view('pages.home', compact('hp'));
     }
 
