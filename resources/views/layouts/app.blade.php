@@ -2,7 +2,7 @@
 <html lang="fr" class="h-100 w-100 certif">
     <head>
         {{--Favicon--}}
-        <link rel="icon" href="{{env('APP_URL')}}favicon.ico" />
+        <link rel="icon" href="{{env('APP_URL')}}/favicon.ico" />
         
         {{-- Required meta tags --}}
         <meta charset="utf-8">

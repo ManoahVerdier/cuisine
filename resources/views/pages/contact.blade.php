@@ -82,7 +82,7 @@ id="contact-page"
 
                 <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
                     <div class="px-0 offset-md-3 col-md-6 pull-center text-center">
-                        
+                        {!! app('captcha')->display() !!}
                         @if ($errors->has('g-recaptcha-response'))
                             <span class="text-danger">
                                 {{ $errors->first('g-recaptcha-response') }}
