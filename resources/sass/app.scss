@@ -69,4 +69,11 @@
             color:$primary;
         }
     }
+
+    #tabsContent ul{
+        li{
+            text-indent:0 !important;
+        }
+        padding-left:1rem !important;    
+    }
 }

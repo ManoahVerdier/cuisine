@@ -5,19 +5,19 @@
         </div>
     </div>
     <div class="row bg-white px-5">
-        <div class="col-4 col-md-2 mb-3 px-5 align-self-center">
+        <div class="col-4 col-md mb-3 px-5 align-self-center">
             <img class="w-100" src="{{asset('/images/HP/confiance1.png')}}"/>
         </div>
-        <div class="col-4 col-md-2 mb-3 px-5 align-self-center">
+        <div class="col-4 col-md mb-3 px-5 align-self-center">
             <img class="w-100" src="{{asset('/images/HP/confiance2.png')}}"/>
         </div>
-        <div class="col-4 col-md-2 mb-3 px-5 align-self-center">
+        <div class="col-4 col-md mb-3 px-5 align-self-center">
             <img class="w-100" src="{{asset('/images/HP/confiance3.png')}}"/>
         </div>
-        <div class="col-4 col-md-2 mb-3 px-5 align-self-center">
+        <div class="col-4 col-md mb-3 px-5 align-self-center">
             <img class="w-100" src="{{asset('/images/HP/confiance4.png')}}"/>
         </div>
-        <div class="col-4 col-md-2 mb-3 px-5 align-self-center">
+        <div class="col-4 col-md mb-3 px-5 align-self-center">
             <img class="w-100" src="{{asset('/images/HP/confiance5.png')}}"/>
         </div>
     </div>

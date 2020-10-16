@@ -113,8 +113,8 @@ class Controller extends BaseController
             ), function ($message) {
                 $message->from('contact@cyn-communication.fr');
                 $message
-                    //->to('vmogenet@cyn-communication.fr', 'Admin')
-                    ->to('verdier.developpement@gmail.com', 'Admin')
+                    ->to('vmogenet@cyn-communication.fr', 'Admin')
+                    //->to('verdier.developpement@gmail.com', 'Admin')
                     ->subject('Contact '.env("APP_NAME"));
             }
         );
